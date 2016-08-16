@@ -2,4 +2,4 @@ image: centos
 
 test:app:
   script:
-  - phpunit --configuration phpunit_myapp.xml
+  - echo "test app"
