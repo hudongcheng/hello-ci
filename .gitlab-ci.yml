@@ -1,5 +1,17 @@
 image: centos
 
+stages:
+  - build
+  - test
+
+build:
+  stage: build
+  script:
+    - make
+  artifacts:
+    - hello-ci
+
+
 test:app:
   script:
   - echo "test app"
