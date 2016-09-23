@@ -1,4 +1,4 @@
-image: centos
+image: pantum-ubuntu
 
 stages:
   - build
